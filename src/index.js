@@ -1,6 +1,12 @@
 // import "./styles.css";
 
 /*
+In this function first select all the buttons with the class .expand_button. On each button add a click event listener that does the following:
+
+Find the article in which the button that was clicked belongs.
+If the text on the button that was clicked is a 'V' then set the display property of the article's body to 'none'. Also set the text on the button to '>'.
+If the text on the button that was clicked is not a 'V' then set the display property of the article's body to 'block'. Also set the text on the button to 'V'.
+
 Add event listeners to the .expand_button buttons
 */
 function expandArticleBody() {
@@ -21,6 +27,12 @@ function expandArticleBody() {
 }
 
 /*
+In this function first select all buttons with the class .highlightBtn. On each button add a click event listener that does the following:
+
+Find the article in which the button that was clicked belongs.
+If the text on the button is '+' then add the .highlight class to the article and set the text on the button to '-'.
+If the text on the button is not '+' then remove the .highlight class from the article and set the text on the button to '+'.
+
 Add event listeners to the .highlightBtn buttons
 */
 function highlightArticle() {
